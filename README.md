@@ -15,7 +15,8 @@
 But to test and try some simple concepts for TYPO3 BE user experience. It's a dirty hack :D
 - getting rid of Layout vs Language mode in page module
 - cleaned up interface for less buttons doing the same thing
-- etc...
+- thinking of creating language selection functionality, so it would be possible to select which languages are being shown from one to many
+- and so on...
 
 ## Screens
 ### Page module not scrolled
