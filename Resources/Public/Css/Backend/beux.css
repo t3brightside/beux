@@ -1,0 +1,108 @@
+.t3-page-ce-header-icon-flag.t3js-flag {
+    display: none;
+}
+
+.t3-page-ce.t3js-page-ce>.t3-page-ce-element {
+    background-color: #fff;
+    box-shadow: none;
+    border: 1px solid var(--module-docheader-border);
+}
+
+.t3js-page-column {
+    background-color: transparent;
+}
+
+.t3-page-ce {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.t3-page-ce .btn-group.btn-group-sm a:nth-child(3),
+.t3-page-ce .btn-group.btn-group-sm a:nth-child(2),
+.t3-page-ce .btn-group.btn-group-sm a:nth-child(1) {
+    display: none;
+}
+
+.element-preview-content .t3-grid-cell {
+    border: 1px solid var(--module-docheader-border);
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+    padding: 1em;
+    padding-top: 0;
+}
+
+.t3-page-column-header {
+    margin-left: 0;
+    padding-bottom: 0.5em;
+    border-bottom: 1px dashed var(--module-docheader-border);
+}
+
+.element-preview-content .t3-page-column-header {
+    display: none;
+}
+
+.t3-page-lang-label {
+    position: sticky;
+    top: 35px;
+    z-index: 9999;
+    transition: top ease-in-out .3s;
+}
+
+.module-docheader-folded+.t3js-module-body .t3-page-lang-label {
+    top: 3px;
+}
+
+.icon-flag .t3js-icon {
+    padding: 0;
+    width: 25.75px;
+    height: 25.75px;
+    border-radius: 0.125em;
+    margin-right: 4px;
+    border: 1px solid var(--module-docheader-border);
+    margin-left: -1px;
+}
+
+.icon-flag img {
+    width: auto;
+    height: 25.75px;
+    border-radius: 0.125em;
+}
+
+.t3js-module-body .localized-title-in-column-header {
+    opacity: 0;
+    transition: opacity ease-in-out .3s;
+}
+
+.module-docheader-folded+.t3js-module-body .localized-title-in-column-header {
+    opacity: 1;
+}
+
+.t3-grid-container>.t3js-page-columns tbody tr td:nth-child(1) {}
+
+
+.t3-page-ce-type-containerSection {
+    background-color: #efefef !important;
+
+}
+div[class*="t3-page-ce-type-container"]>.t3-page-ce-body {
+    padding-bottom: 0;
+}
+
+.t3-page-ce-type-containerSection .t3-grid-cell {
+    background-color: transparent;
+    padding: 0;
+    border: none;
+}
+
+.t3-page-ce-type-containerSection .element-preview-content {}
+
+.t3-page-ce-footer {
+    background-color: transparent;
+}
+.hide-default-language>tbody>tr>td:nth-child(1){
+    display: none;
+}
+.element-preview-header+.element-preview-content {
+    margin-top: 0rem;
+}

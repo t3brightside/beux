@@ -1,0 +1,66 @@
+<html
+    xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+    data-namespace-typo3-fluid="true"
+>
+
+<f:layout name="Module" />
+
+<f:section name="Content">
+
+    <f:be.pageRenderer
+        includeJavaScriptModules="{
+            0: '@typo3/backend/clear-cache.js',
+            1: '@typo3/backend/new-content-element-wizard-button.js',
+            2: '@typo3/backend/context-menu.js',
+            3: '@typo3/backend/tooltip.js',
+            4: '@typo3/backend/localization.js',
+            5: '@typo3/backend/layout-module/drag-drop.js',
+            6: '@typo3/backend/modal.js'
+        }"
+    />
+
+    <f:variable name="immediateActionArgs" value="{0: 'web', 1: pageId, 2: 1}" />
+    <typo3-immediate-action action="TYPO3.Backend.Storage.ModuleStateStorage.updateWithCurrentMount" args="{immediateActionArgs -> f:format.json() -> f:format.htmlspecialchars()}"></typo3-immediate-action>
+
+    <f:for each="{infoBoxes}" as="infoBox">
+        <f:be.infobox state="{infoBox.state}">
+            <f:format.raw>{infoBox.message}</f:format.raw>
+        </f:be.infobox>
+    </f:for>
+<f:comment>
+    <f:if condition="{isPageEditable}">
+        <f:then>
+            <h1 class="t3js-title-inlineedit">{localizedPageTitle}</h1>
+        </f:then>
+        <f:else>
+            <h1>{localizedPageTitle}</h1>
+        </f:else>
+    </f:if>
+</f:comment>
+    <f:format.raw>{eventContentHtmlTop}</f:format.raw>
+
+    <form action="{f:be.uri(route:'web_layout', parameters:'{id: pageId}')}" id="PageLayoutController" method="post">
+        <f:format.raw>{mainContentHtml}</f:format.raw>
+    </form>
+
+    <f:if condition="{hiddenElementsShowToggle}">
+        <div class="form-check form-switch">
+            <input
+                type="checkbox"
+                id="checkShowHidden"
+                class="form-check-input"
+                name="showHidden"
+                value="1"
+                {f:if(condition:'{hiddenElementsState} == 1', then:'checked="checked"')}
+            />
+            <label class="form-check-label" for="checkShowHidden">
+                <f:translate key="LLL:EXT:backend/Resources/Private/Language/locallang_layout.xlf:hiddenCE" /> (<span class="t3js-hidden-counter">{hiddenElementsCount}</span>)
+            </label>
+        </div>
+    </f:if>
+
+    <f:format.raw>{eventContentHtmlBottom}</f:format.raw>
+
+</f:section>
+
+</html>
