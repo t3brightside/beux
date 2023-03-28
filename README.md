@@ -11,7 +11,8 @@
 - TYPO3 12
 
 ## What is it?
-Thsi extension is not meant to provide real life functionality right now. But to test and try some simple concepts for TYPO3 BE user experience.
+**Thsi extension is not meant to provide real life functionality right now.**
+But to test and try some simple concepts for TYPO3 BE user experience. It's a dirty hack :D
 - getting rid of Layout vs Language mode in page module
 - cleaned up interface for less buttons doing the same thing
 - etc...

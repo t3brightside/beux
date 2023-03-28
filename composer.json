@@ -2,7 +2,7 @@
 	"name": "t3brightside/beux",
 	"description": "TYPO3 CMS BE UX sandbox",
 	"type": "typo3-cms-extension",
-	"keywords": ["TYPO3", "Template", "Design", "Fluid"],
+	"keywords": ["TYPO3", "BE", "UX"],
 	"homepage": "https://microtemplate.t3brightside.com/",
 	"license": "GPL-2.0-or-later",
 	"authors": [{
