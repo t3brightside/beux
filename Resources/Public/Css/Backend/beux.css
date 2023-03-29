@@ -106,3 +106,7 @@ div[class*="t3-page-ce-type-container"]>.t3-page-ce-body {
 .element-preview-header+.element-preview-content {
     margin-top: 0rem;
 }
+
+.t3-page-ce-actions {
+    height: auto;
+}
