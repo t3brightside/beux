@@ -110,3 +110,9 @@ div[class*="t3-page-ce-type-container"]>.t3-page-ce-body {
 .t3-page-ce-actions {
     height: auto;
 }
+.t3-page-ce {
+    overflow: inherit;
+}
+.draggable-dragging {
+    margin-top: -300px;
+}
