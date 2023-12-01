@@ -9,6 +9,8 @@
                             <f:render partial="Menus/SelectBoxJumpMenu" arguments="{menu:menu}"/>
                         </div>
                     </f:for>
+                    <f:render partial="ButtonBar" arguments="{buttons:docHeader.buttons.left}" />
+
                     <f:for each="{docHeader.menus.languageMenu.menuItems}" as="item" iteration="iterator">
                         <f:if condition="{iterator.isLast} && {item.active}">
                             <f:then>
@@ -64,7 +66,6 @@
     </div>
     <div class="module-docheader-bar module-docheader-bar-buttons t3js-module-docheader-bar t3js-module-docheader-bar-buttons">
         <div class="module-docheader-bar-column-left">
-            <f:render partial="ButtonBar" arguments="{buttons:docHeader.buttons.left}" />
         </div>
     </div>
 </div>

@@ -46,11 +46,10 @@ class ModifyPageEditButtons {
 // show no buttons
 //$buttons[ButtonBar::BUTTON_POSITION_LEFT] = array_merge();
 if($module === 'web_layout') {
-        $event->setButtons($buttons);
+
     } else {
 
     }
-    #    debug($event);
     }
     protected function getRequest(): ServerRequestInterface
     {

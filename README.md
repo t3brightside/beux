@@ -4,19 +4,11 @@
 [![Downloads](https://poser.pugx.org/t3brightside/beux/downloads)](https://packagist.org/packages/t3brightside/beux)
 [![Brightside](https://img.shields.io/badge/by-t3brightside.com-orange.svg?style=flat)](https://t3brightside.com)
 
-**For playing around with TYPO3 BE UX**
+**This extension is an experiment to clean up TYPO3 back end editing for [Microtemplate](https://github.com/t3brightside/microtemplate) extension.**
 
 ## System requirements
 
 - TYPO3 12
-
-## What is it?
-**Thsi extension is not meant to provide real life functionality right now.**
-But to test and try some simple concepts for TYPO3 BE user experience. It's a dirty hack :D
-- getting rid of Layout vs Language mode in page module
-- cleaned up interface for less buttons doing the same thing
-- thinking of creating language selection functionality, so it would be possible to select which languages are being shown from one to many
-- and so on...
 
 ## Screens
 ### Page module not scrolled
