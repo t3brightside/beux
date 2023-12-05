@@ -9,6 +9,12 @@
 ## System requirements
 
 - TYPO3 12
+- Microtemplate extension
+
+## Important
+
+- Works only for Microtemplate extension based websites. Could mess up the look of BE layouts for other pages in same TYPO3 setup.
+- It's fairly experimental and there's more than few issues. But it looks nice to most part :)
 
 ## Screens
 ### Page module not scrolled
