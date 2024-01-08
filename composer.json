@@ -11,13 +11,8 @@
 		"homepage": "https://t3brightside.com"
 	}],
 	"require": {
-		"typo3/cms-backend": "^12.1"
+		"typo3/cms-backend": "^12.4"
 	},
-	"autoload": {
-		"psr-4": {
-		  "Brightside\\Beux\\": "Classes"
-		}
-	  },
 	"extra": {
 		"typo3/cms": {
 			"extension-key": "beux"

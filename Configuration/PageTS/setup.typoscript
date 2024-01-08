@@ -2,6 +2,6 @@
 templates.typo3/cms-backend.8918304491 = t3brightside/beux:Resources/Private/TemplateOverrides
 
 
-mod.web_layout.menu.functions {
-   1 = 0
-}
+# mod.web_layout.menu.functions {
+#   1 = 0
+# }
