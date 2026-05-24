@@ -3,7 +3,7 @@
     'title' => 'BEUX',
     'description' => 'Attempt to clean up all the frames in TYPO3 BE Layout module',
     'category' => 'fe',
-    'version' => '0.3.0',
+    'version' => '0.3.1',
     'state' => 'stable',
     'clearCacheOnLoad' => 1,
     'author' => 'Tanel Põld',
