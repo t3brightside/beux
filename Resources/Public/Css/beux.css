@@ -1,5 +1,5 @@
 .t3-grid-container {
-    /*  border-color: var(--module-docheader-border-color); */
+    border: none;
 }
 
 .t3-grid-table {
@@ -17,16 +17,15 @@
 
 table.t3-grid-table {
     border-collapse: separate !important;
-    border-spacing: 10px !important;
-    /* Your desired gap */
-
+    border-spacing: var(--pagemodule-grid-spacing) !important;
     /* Pull the table outward by the exact amount of the gap */
-    margin-top: -10px !important;
-    margin-left: -10px !important;
-    margin-right: -10px !important;
-    margin-bottom: -10px !important;
+    margin-top: calc(var(--pagemodule-grid-spacing) * -1) !important;
+    margin-left: calc(var(--pagemodule-grid-spacing) * -1) !important;
+    margin-right: calc(var(--pagemodule-grid-spacing) * -1) !important;
+    margin-bottom: calc(var(--pagemodule-grid-spacing) * -1) !important;
 
     /* Recalculate width to prevent the layout from shrinking */
-    width: calc(100% + 20px) !important;
+    width: calc(100% + (var(--pagemodule-grid-spacing) * 2)) !important;
     max-width: none !important;
+
 }
