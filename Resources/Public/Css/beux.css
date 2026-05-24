@@ -1,0 +1,32 @@
+.t3-grid-container {
+    border: none;
+}
+
+.t3-grid-table {
+    border-spacing: 0;
+}
+
+.t3-page-ce-element {
+    box-shadow: none;
+    border: none;
+}
+
+.t3-grid-container-inner {
+    overflow: hidden;
+}
+
+table.t3-grid-table {
+    border-collapse: separate !important;
+    border-spacing: 10px !important;
+    /* Your desired gap */
+
+    /* Pull the table outward by the exact amount of the gap */
+    margin-top: -10px !important;
+    margin-left: -10px !important;
+    margin-right: -10px !important;
+    margin-bottom: -10px !important;
+
+    /* Recalculate width to prevent the layout from shrinking */
+    width: calc(100% + 20px) !important;
+    max-width: none !important;
+}

@@ -3,7 +3,7 @@
     'title' => 'BEUX',
     'description' => 'Back End UX thing',
     'category' => 'fe',
-    'version' => '0.2.0',
+    'version' => '0.3.0',
     'state' => 'stable',
     'clearCacheOnLoad' => 1,
     'author' => 'Tanel Põld',
@@ -11,7 +11,7 @@
     'author_company' => 'Brightside OÜ',
     'constraints' => [
       'depends' => [
-        'typo3' => '12.1.0-12.99.99',
+        'typo3' => '14.0.0-14.99.99',
       ],
     ],
   ];
