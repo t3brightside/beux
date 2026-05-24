@@ -5,7 +5,8 @@
 [![Downloads](https://poser.pugx.org/t3brightside/beux/downloads)](https://packagist.org/packages/t3brightside/beux)
 [![Brightside](https://img.shields.io/badge/by-t3brightside.com-orange.svg?style=flat)](https://t3brightside.com)
 
-**For now just removes the frame from around content areas.**
+Just didn't need the vast amount of frames and box-shadows around each content area and element in layout view.<br />
+Makes it easier to follow nested content sections.
 
 ## Install
 
