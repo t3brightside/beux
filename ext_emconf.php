@@ -1,7 +1,7 @@
 <?php
   $EM_CONF[$_EXTKEY] = [
     'title' => 'BEUX',
-    'description' => 'Back End UX thing',
+    'description' => 'Attempt to clean up all the frames in TYPO3 BE Layout module',
     'category' => 'fe',
     'version' => '0.3.0',
     'state' => 'stable',

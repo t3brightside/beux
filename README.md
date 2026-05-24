@@ -11,7 +11,8 @@ Makes it easier to follow nested content sections.
 ## Install
 
 - `composer req t3brightside/beux`
-- include static Page TSconfig to your page root
+
+Reload BE, it only adds couple of CSS rules.
 
 ## Sources
 

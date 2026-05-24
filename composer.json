@@ -1,6 +1,6 @@
 {
 	"name": "t3brightside/beux",
-	"description": "TYPO3 CMS BE UX sandbox",
+	"description": "Attempt to clean up all the frames in TYPO3 BE Layout module.",
 	"type": "typo3-cms-extension",
 	"keywords": ["TYPO3", "BE", "UX"],
 	"homepage": "https://microtemplate.t3brightside.com/",
