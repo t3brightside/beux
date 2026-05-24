@@ -1,5 +1,5 @@
 .t3-grid-container {
-    border: none;
+    /*  border-color: var(--module-docheader-border-color); */
 }
 
 .t3-grid-table {
@@ -8,7 +8,7 @@
 
 .t3-page-ce-element {
     box-shadow: none;
-    border: none;
+    /*  border: none; */
 }
 
 .t3-grid-container-inner {
